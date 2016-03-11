@@ -77,7 +77,7 @@ case ${PACKER_BUILD_NAME} in
 
         # Output some potentially useful debugging information
         sudo lsblk
-        sudo file -s /dev/xvda
+        #sudo file -s /dev/xvda
         cat /proc/cmdline
         grep ^kernel /boot/grub/menu.lst
         cat /etc/fstab
